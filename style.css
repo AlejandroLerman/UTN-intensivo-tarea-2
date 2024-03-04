@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+.producto-1{
+    background-color: rgb(89, 89, 89);
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin:10px;
+    padding: 20px;
+    color:white;
+}
+
+.producto-1 h2{
+    margin-bottom: 10px;
+}
+
+.producto-1 p{
+    margin-bottom: 20px;
+}
+
+.texto-precio{
+    font-weight: bold;
+}
+
+.precio{
+    color: gold;
+    text-shadow: 0 0 3px gold;
+    font-weight: 500;
+}
+
+button{
+    padding: 3px;
+    background-color: goldenrod;
+    color: black;
+    border: dashed 1px gold;
+    cursor: pointer;
+}
